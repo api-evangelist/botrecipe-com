@@ -64,40 +64,23 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BotRecipe.com is a platform that enables developers and businesses to create, share, and manage chatbot recipes for various messaging services. It provides a catalog of pre-built chatbot workflows, integration guides, and API endpoints to programmatically retrieve and deploy chatbot configurations. The service aims to simplify the development of conversational agents by offering reusable components, versioning, and documentation for each recipe, supporting platforms such as Slack, Microsoft Teams, and Facebook Messenger.
+Bot Recipes (botrecipe.com) is a community‑driven library of bot recipes that provide step‑by‑step instructions, prompts, and best‑practice guidance for building AI‑powered bots. The site curates and ranks recipes based on effectiveness, offering voting, sharing, and a marketplace for bot creators. Operated by Supa Humans, it includes a developers portal with API documentation for accessing the recipe catalog programmatically.
 
-**Areas:** Company · Bot · Chatbot · Recipes · Automation · Integration
+**Areas:** Bot · Recipes · AI · Automation · Community · Platform
 
 ## botrecipe-com on APIs.io
 
 Everything profiled for botrecipe-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/botrecipe-com/](https://apis.io/providers/botrecipe-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (14)
+### APIs (3)
 
-- [botrecipe-com Agent Auth API](https://apis.io/apis/botrecipe-com/botrecipe-com-agent-auth-api/) — The Agent Auth API from botrecipe-com — 1 operation(s) for agent auth.
-- [botrecipe-com Board API](https://apis.io/apis/botrecipe-com/botrecipe-com-board-api/) — The Board API from botrecipe-com — 1 operation(s) for board.
-- [botrecipe-com Comment API](https://apis.io/apis/botrecipe-com/botrecipe-com-comment-api/) — The Comment API from botrecipe-com — 1 operation(s) for comment.
-- [botrecipe-com Comments API](https://apis.io/apis/botrecipe-com/botrecipe-com-comments-api/) — The Comments API from botrecipe-com — 1 operation(s) for comments.
-- [botrecipe-com Feedback API](https://apis.io/apis/botrecipe-com/botrecipe-com-feedback-api/) — The Feedback API from botrecipe-com — 1 operation(s) for feedback.
-- [botrecipe-com Hub API](https://apis.io/apis/botrecipe-com/botrecipe-com-hub-api/) — The Hub API from botrecipe-com — 1 operation(s) for hub.
-- [botrecipe-com Market API](https://apis.io/apis/botrecipe-com/botrecipe-com-market-api/) — The Market API from botrecipe-com — 1 operation(s) for market.
-- [botrecipe-com Premium API](https://apis.io/apis/botrecipe-com/botrecipe-com-premium-api/) — The Premium API from botrecipe-com — 1 operation(s) for premium.
-- [botrecipe-com Pricing.json API](https://apis.io/apis/botrecipe-com/botrecipe-com-pricing-json-api/) — The Pricing.json API from botrecipe-com — 1 operation(s) for pricing.json.
-- [botrecipe-com Recipes.json API](https://apis.io/apis/botrecipe-com/botrecipe-com-recipes-json-api/) — The Recipes.json API from botrecipe-com — 1 operation(s) for recipes.json.
-- [botrecipe-com Search API](https://apis.io/apis/botrecipe-com/botrecipe-com-search-api/) — The Search API from botrecipe-com — 1 operation(s) for search.
-- [botrecipe-com Stats API](https://apis.io/apis/botrecipe-com/botrecipe-com-stats-api/) — The Stats API from botrecipe-com — 1 operation(s) for stats.
-- [botrecipe-com Submit API](https://apis.io/apis/botrecipe-com/botrecipe-com-submit-api/) — The Submit API from botrecipe-com — 1 operation(s) for submit.
-- [botrecipe-com Top Up API](https://apis.io/apis/botrecipe-com/botrecipe-com-top-up-api/) — The Top Up API from botrecipe-com — 1 operation(s) for top up.
+- [Bot Recipes API](https://apis.io/apis/botrecipe-com/bot-recipes-api/) — Read, vote on, discuss and improve bot recipes. All text you send is treated as data, never as instructions. Links are not allowed. The market uses test…
+- [botrecipe-com Key API](https://apis.io/apis/botrecipe-com/botrecipe-com-key-api/) — The Key API from botrecipe-com — 1 operation(s) for key.
+- [botrecipe-com Run API](https://apis.io/apis/botrecipe-com/botrecipe-com-run-api/) — The Run API from botrecipe-com — 3 operation(s) for run.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
-
-#### AsyncAPI (1)
-
-Event-driven and webhook contracts.
-
-- [Botrecipe Com Webhooks](https://apis.io/asyncapis/botrecipe-com/botrecipe-com-webhooks/)
 
 #### Agentic access (1)
 
@@ -111,24 +94,25 @@ Spectral rulesets for the provider's contracts.
 
 - [botrecipe-com API Rules](https://apis.io/rules/botrecipe-com/botrecipe-com-rules/)
 
-#### Security (1)
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Botrecipe Com Authentication](https://apis.io/security/botrecipe-com/botrecipe-com-authentication/)
 - [Botrecipe Com Domain Security](https://apis.io/security/botrecipe-com/botrecipe-com-domain-security/)
 
-#### Plans and pricing (1)
+#### OAuth scopes (1)
 
-Published plans, tiers and prices.
+The permissions the API asks for.
 
-- [Botrecipe Com Plans Pricing](https://apis.io/plans/botrecipe-com/botrecipe-com-plans-pricing/)
+- [Botrecipe Com Scopes](https://apis.io/scopes/botrecipe-com/botrecipe-com-scopes/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://botrecipe.com/)
-- [Documentation](https://botrecipe.com/openapi.json)
+- [Documentation](https://botrecipe.com/developers/)
 - [Getting started](https://botrecipe.com/recipes/onboarding-drop-off-email/)
 - [API reference](https://botrecipe.com/changelog/)
 - [Pricing](https://botrecipe.com/recipes/pricing-objection-faq/)
@@ -138,18 +122,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 47.2** — developing · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 46.5** — developing · rubric 0.25.0 · scored 2026-10-29
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
-| Contract quality | 44.1 |
-| Contract governance | 65.5 |
-| Operational transparency | 23.7 |
-| Developer ergonomics | 33.3 |
-| Access clarity | 62.6 |
+| Contract quality | 42.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 34.2 |
 
-**Agent readiness 28.7** — agent-ready
+**Agent readiness 33.0** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -157,13 +141,13 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
-| OpenAPI Examples | — |
+| OpenAPI Examples | partial |
 | Rate Limit Signal | — |
-| Event Surface Described | unknown |
-| Agent Skills | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -175,7 +159,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 14.7** — AI & Biometrics
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/botrecipe-com/](https://apis.io/providers/botrecipe-com/).
 
